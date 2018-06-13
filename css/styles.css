@@ -599,28 +599,28 @@ footer.main_page_footer {
     text-align: center;
 }
 
-.social a:nth-child(1) {
+.social a.link_twitter {
     background-color: #78cdf0;
 }
 
-.social a:nth-child(1):hover {
+.social a.link_twitter:hover {
     background-color: #3eb8eb;
 }
 
-.social a:nth-child(2) {
+.social a.link_facebook {
     background-color: #537bbd;
 }
 
-.social a:nth-child(2):hover {
+.social a.link_facebook:hover {
     background-color: #2f64bc;
 }
 
-.social a:nth-child(3) {
+.social a.link_pinterest {
     background-color: #eb5755;
     margin-right: 0;
 }
 
-.social a:nth-child(3):hover {
+.social a.link_pinterest:hover {
     background-color: #ea2522;
 }
 
