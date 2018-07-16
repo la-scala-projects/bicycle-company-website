@@ -1,129 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Bicycle Company - retro bikes in NY</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-<body>
-    <header class="main_page_header">
-        <nav>
-            <ul class="nav_menu">
-                <li class="point"><a href="#">About us</a></li>
-                <li><a href="#">Work</a></li>
-                <li class="logotype"><a href="#"><img src="images/Logo.png" alt="Company logo"></a></li>
-                <li class="point"><a href="#">Shop</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="promo_1">
-            <h2>A new generation of vintage bike</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                It has survived not only five centuries, but also the leap into electronic typesetting,
-                remaining essentially unchanged. </p>
-        </section>
-        <section class="promo_2">
-            <div class="promo_2_left_container"></div>
-            <div class="promo_2_right_container">
-                <div class="promo_2_content">
-                    <h2>Vintage Oliva</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+        <meta name="description" content="Bicycle Company - retro bikes in NY">
+        <title>Bicycle Company - retro bikes in NY</title>
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header class="page-header">
+            <nav class="main-nav">
+                <a class="main-nav__logo" href="#"><img class="page-header__logotype" src="images/Logo.png"
+                                                        alt="Company logo"></a>
+                <button class="nav-button nav-button--open">Open menu</button>
+                <div class="nav-menu nav-menu--hidden">
+                    <ul class="nav-menu__container">
+                        <li class="nav-menu__item nav-menu__item--point"><a href="#">About us</a></li>
+                        <li class="nav-menu__item"><a href="#">Work</a></li>
+                        <li class="nav-menu__item item--nav-logo">
+                            <a class="nav-menu__item--logotype-container" href="#"><img class="nav-menu__item--logotype"
+                                                                                        src="images/Logo.png"
+                                                                                        alt="Company logo"></a>
+                        </li>
+                        <li class="nav-menu__item nav-menu__item--point"><a href="#">Shop</a></li>
+                        <li class="nav-menu__item"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="page-promo">
+                <div class="promo-block promo-block--top">
+                    <h2 class="promo-block__title promo-block__title--spinner-icon">A new generation of vintage
+                        bike</h2>
+                    <p class="promo-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        It has survived.</p>
+                        It has survived not only five centuries, but also the leap into electronic typesetting,
+                        remaining essentially unchanged. </p>
                 </div>
-                <div class="promo_2_content_image"></div>
-            </div>
-        </section>
-        <section class="promo_3">
-            <div class="promo_3_left_container">
-                <div class="promo_3_content">
-                    <h2>La Boriosa</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        It has survived.</p>
+                <div class="promo-block promo-block--advantages">
+                    <div class="promo-block__container-large container-large--first"></div>
+                    <div class="promo-block__container-small container-small--first">
+                        <div class="promo-block__container-content">
+                            <h2 class="promo-block__title title--fish-icon">Vintage Oliva</h2>
+                            <p class="promo-block__text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.
+                                It has survived.</p>
+                        </div>
+                        <div class="promo-block__small-image small-image--first"></div>
+                    </div>
                 </div>
-                <div class="promo_3_content_image"></div>
-            </div>
-            <div class="promo_3_right_container"></div>
-        </section>
-        <section class="promo_4">
-            <div class="promo_4_left_container"></div>
-            <div class="promo_4_center_container">
-                <div class="promo_4_content">
-                    <h2>Retrò Bike - M. Hulot</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        It has survived.</p>
+                <div class="promo-block promo-block--advantages">
+                    <div class="promo-block__container-small container-small--second">
+                        <div class="promo-block__container-content">
+                            <h2 class="promo-block__title title--compass-icon">La Boriosa</h2>
+                            <p class="promo-block__text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.
+                                It has survived.</p>
+                        </div>
+                        <div class="promo-block__small-image small-image--second"></div>
+                    </div>
+                    <div class="promo-block__container-large container-large--second"></div>
                 </div>
-                <div class="promo_4_content_image"></div>
-            </div>
-            <div class="promo_4_right_container"></div>
-        </section>
-        <section class="reviews">
-            <cite>AOD New York  @aod  <span class="review_time">/  35 min</span></cite>
-            <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus.
-                Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</blockquote>
-            <div class="slider_toggles_container">
-                <button class="slider_toggle toggle_active">1</button>
-                <button class="slider_toggle">2</button>
-                <button class="slider_toggle">3</button>
-            </div>
-        </section>
-        <section class="shop">
-            <div class="shop_items_left_container">
-                <div class="left_container_top">
-                    <a href="#"><img src="images/bike8.jpg" alt="Shop Item"></a>
-                    <a href="#"><img src="images/bike9.jpg" alt="Shop Item"></a>
+                <div class="promo-block promo-block--advantages">
+                    <div class="promo-block__container-small container-small--third"></div>
+                    <div class="promo-block__container-small container-small--fourth">
+                        <div class="promo-block__container-content">
+                            <h2 class="promo-block__title title--helm">Retrò Bike - M. Hulot</h2>
+                            <p class="promo-block__text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.
+                                It has survived.</p>
+                        </div>
+                        <div class="promo-block__small-image small-image--third"></div>
+                    </div>
+                    <div class="promo-block__container-small container-small--fifth"></div>
                 </div>
-                <div class="left_container_bottom">
-                    <a href="#"><img src="images/bike10.jpg" alt="Shop Item"></a>
+            </section>
+            <section class="reviews">
+                <div class="review-block">
+                    <a href="#">Social network link</a>
+                    <cite class="review-block__username">AOD New York @aod<span
+                            class="review-block__time">  /  35 min</span></cite>
+                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper
+                        rhoncus.
+                        Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.
+                    </blockquote>
                 </div>
-            </div>
-            <div class="shop_items_center_container">
-                <a href="#"><img src="images/bike11.jpg" alt="Shop Item"></a>
-                <a href="#"><img src="images/bike12.jpg" alt="Shop Item"></a>
-            </div>
-            <div class="shop_items_right_container">
-                <div class="right_container_top">
-                    <a href="#"><img src="images/bike13.jpg" alt="Shop Item"></a>
+                <div class="slider-toggles__container">
+                    <button class="slider-toggle toggle--active">1</button>
+                    <button class="slider-toggle">2</button>
+                    <button class="slider-toggle">3</button>
                 </div>
-                <div class="right_container_bottom">
-                    <a href="#"><img src="images/bike14.jpg" alt="Shop Item"></a>
-                    <a href="#"><img src="images/bike15.jpg" alt="Shop Item"></a>
+            </section>
+            <section class="shop">
+                <div class="shop__container--main">
+                    <div class="shop__items-container">
+                        <div class="shop__items-container--double">
+                            <a href="#" class="image__container image__container--1">
+                                <div class="image-mask">
+                                    <div class="bicycle-icon__container"></div>
+                                    <span class="image-mask__title">Shop now</span>
+                                </div>
+                            </a>
+                            <a href="#" class="image__container image__container--2">
+                                <div class="image-mask">
+                                    <div class="bicycle-icon__container"></div>
+                                    <span class="image-mask__title">Shop now</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="shop__items-container--single">
+                            <a href="#" class="image__container image__container--3">
+                                <div class="image-mask">
+                                    <div class="bicycle-icon__container"></div>
+                                    <span class="image-mask__title">Shop now</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="shop__items-container shop__items-container-center">
+                        <a href="#" class="image__container image__container--4">
+                            <div class="image-mask">
+                                <div class="bicycle-icon__container"></div>
+                                <span class="image-mask__title">Shop now</span>
+                            </div>
+                        </a>
+                        <a href="#" class="image__container image__container--5">
+                            <div class="image-mask">
+                                <div class="bicycle-icon__container"></div>
+                                <span class="image-mask__title">Shop now</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="shop__items-container">
+                        <div class="shop__items-container--single">
+                            <a href="#" class="image__container image__container--6">
+                                <div class="image-mask">
+                                    <div class="bicycle-icon__container"></div>
+                                    <span class="image-mask__title">Shop now</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="shop__items-container--double">
+                            <a href="#" class="image__container image__container--7">
+                                <div class="image-mask">
+                                    <div class="bicycle-icon__container"></div>
+                                    <span class="image-mask__title">Shop now</span>
+                                </div>
+                            </a>
+                            <a href="#" class="image__container image__container--8">
+                                <div class="image-mask">
+                                    <div class="bicycle-icon__container"></div>
+                                    <span class="image-mask__title">Shop now</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
+                <div class="shop-button__container">
+                    <a href="#" class="shop-button">Discover the shop</a>
+                </div>
+            </section>
+            <section class="feedback">
+                <img class="feedback__logo" src="images/Logo.png" alt="Company logo">
+                <h3 class="feedback__title">Stay on the saddle!</h3>
+                <form class="feedback__form-container" action="#" method="post">
+                    <input type="email" name="user-email" id="email" placeholder="enter your email..." required>
+                    <input type="submit" name="submit-button" id="submit" value="Go">
+                </form>
+            </section>
+        </main>
+        <footer class="page_footer">
+            <div class="contacts">
+                <p class="contacts__content">
+                    <span class="contacts__content--name">AOD New York</span><br>
+                    2250 Lexington Avenue<br>
+                    New York, NY 10035 - info@domain.com
+                </p>
             </div>
-        </section>
-        <section class="shop_button_container">
-            <a href="#" class="shop_button">Discover the shop</a>
-        </section>
-        <section class="feedback">
-            <img src="images/Logo.png" alt="Company logo">
-            <h3>Stay on the saddle!</h3>
-            <form action="#" method="post">
-                <input type="email" name="user-email" id="email" placeholder="enter your email...">
-                <input type="submit" name="submit-button" id="submit" value="Go">
-            </form>
-        </section>
-    </main>
-    <footer class="main_page_footer">
-        <div class="social">
-            <a href="#" class="link_twitter"><span class="social_twitter">Twitter</span></a>
-            <a href="#" class="link_facebook"><span class="social_facebook">Facebook</span></a>
-            <a href="#" class="link_pinterest"><span class="social_pinterest">Pinterest</span></a>
-        </div>
-        <div class="contacts">
-            <p><span class="contacts_name">AOD New York</span><br>
-                2250 Lexington Avenue<br>
-                New York, NY 10035  - info@domain.com</p>
-        </div>
-    </footer>
-</body>
+            <div class="social-links">
+                <a href="#" class="social-links__item social-links__item--twitter"><span
+                        class="social-links__item-icon icon--twitter">Twitter</span></a>
+                <a href="#" class="social-links__item social-links__item--facebook"><span
+                        class="social-links__item-icon icon--facebook">Facebook</span></a>
+                <a href="#" class="social-links__item social-links__item--pinterest"><span
+                        class="social-links__item-icon icon--pinterest">Pinterest</span></a>
+            </div>
+        </footer>
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
